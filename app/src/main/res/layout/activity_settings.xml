@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:layout_height="match_parent"
+    tools:context=".Activity.SettingsActivity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/settings_image"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="51dp"
+        android:src="@drawable/default_avatars" />
+
+    <TextView
+        android:id="@+id/settings_name"
+        android:textSize="24sp"
+        android:textColor="@color/colorWhite"
+        android:textStyle="normal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/settings_image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="@string/display_name" />
+
+    <TextView
+        android:id="@+id/settings_status"
+        android:text="@string/hi_there_i_m_using_friends_chat"
+        android:textSize="16sp"
+        android:layout_below="@id/settings_name"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/colorWhite"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/settings_image_btn"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/settings_status"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/button_reg"
+        android:text="@string/change_image"
+        android:textColor="@color/colorPrimary" />
+
+
+    <Button
+        android:id="@+id/setting_status_btn"
+        android:layout_below="@id/settings_image_btn"
+        android:text="@string/change_status"
+        android:textColor="@color/colorWhite"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_log"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

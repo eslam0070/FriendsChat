@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="319dp"
+            android:layout_height="312dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginStart="51dp"
+            android:src="@drawable/welcome"
+            tools:ignore="ContentDescription" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/intent_log"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_log"
+        android:textColor="@color/colorWhite"
+        android:textSize="18sp"
+        android:layout_below="@id/l1"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="60dp"
+        android:text="@string/already_have_account" />
+
+    <Button
+        android:layout_below="@id/l1"
+        android:id="@+id/intent_reg"
+        android:text="@string/need_a_new_account"
+        android:textSize="18sp"
+        android:layout_marginTop="130dp"
+        android:layout_marginStart="65dp"
+        android:background="@drawable/button_reg"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">ChatFY</string>
+    <string name="welcome_to_friends_chat">Welcome To Friends Chat</string>
+    <string name="need_a_new_account">Need a New Account ?</string>
+    <string name="display_name">Display Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="create_account">Create Account</string>
+    <string name="crate_a_new_account">Crate a New Account</string>
+    <string name="already_have_a_account">Already Have a Account</string>
+    <string name="log_out">Log Out</string>
+    <string name="account_settings">Account Settings</string>
+    <string name="all_users">All Users</string>
+    <string name="already_have_account">Already have account</string>
+    <string name="login">Login</string>
+
+    <string name="hi_there_i_m_using_friends_chat">Hi there, I`m using Friends Chat</string>
+    <string name="change_image">Change image</string>
+    <string name="change_status">CHANGE STATUS</string>
+    <string name="your_status">Your Status</string>
+    <string name="save_change">Save Change</string>
+    <string name="total_friends">Total Friends</string>
+    <string name="send_friened_request">SEND FRIENED REQUEST</string>
+    <string name="decline_friend_request">Decline friend request</string>
+</resources>

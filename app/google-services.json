@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "684083859670",
+    "firebase_url": "https://chatfy-83037.firebaseio.com",
+    "project_id": "chatfy-83037",
+    "storage_bucket": "chatfy-83037.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:684083859670:android:49fb322de1ad9d4a",
+        "android_client_info": {
+          "package_name": "com.egyeso.chatfy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "684083859670-f0er4okvd35tfi1imro404nshdamqmml.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.egyeso.chatfy",
+            "certificate_hash": "d858073dd3f7275f5ffed54b5743f92945e9ebdc"
+          }
+        },
+        {
+          "client_id": "684083859670-hnf16grhfksqlvv5nnu1feuk1h1vk35l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBboDgPVT563jImuc3h7EfZdHBj7pISMM0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "684083859670-hnf16grhfksqlvv5nnu1feuk1h1vk35l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
